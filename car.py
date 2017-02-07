@@ -1,6 +1,6 @@
 class Car(object):
   
-  def __init__(self,name='General',model='GM',car_type='honds'):
+  def __init__(self,name='General',model='GM',car_type='honda'):
     
     self.car_type = car_type
     self.model = model
@@ -39,18 +39,7 @@ class Car(object):
       
     else:
       
-      self.speed = 10*spid
-      
-    return self
-  def drive1(self,spid):
-    
-    if self.car_type=='mercedes':
-      
-      self.speed=spid*1000/3
-    
-    else:
-      
-      self.speed = 10*spid
+      self.speed = 10**spid
       
     return self
     
