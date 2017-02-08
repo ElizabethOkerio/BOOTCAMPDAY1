@@ -18,6 +18,7 @@ def data_type(input):
   else: 
     return 'no value'
 
+
         
     
     
